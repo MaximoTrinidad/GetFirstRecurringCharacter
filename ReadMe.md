@@ -10,14 +10,19 @@ In 'abcdedcba', 'd' would be the first recurring character, so the cmdlet/functi
 
 # Sample with one-liners:
 Store the string in a variable:
+```
 $foo = 'abcdedcba';
+```
 
 Get position of the first instance 'd" found:
+```
 $foo.indexof('d');
+```
 
 Use the position found to print the value:
+```
 $foo[$foo.indexof('d')];
-
+```
 
 Sample function:
 ```
