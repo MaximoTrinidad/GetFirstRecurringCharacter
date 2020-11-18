@@ -26,9 +26,25 @@ $foo[$foo.indexof('d')];
 
 Sample function:
 ```
-##===== Function Get-FirstCharInstance =====#
-function Get-FirstCharInstance
+##===== Function Get-FirstRecurringCharacter =====#
+function Get-FirstRecurringCharacter
 {
+	<#
+	.SYNOPSIS
+		Function Get-FirstRecurringCharacterfunction.
+	
+	.DESCRIPTION
+		Get the first recurring character in a string..
+	
+	.PARAMETER FullString
+		FullString - Enter a full string value. (Mandatory field)
+	
+	.PARAMETER DisplayGridview
+		FindInString - Enter the character to search in the full string. (Mandatory field)
+	
+	.NOTES
+		N/A
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory=$true, Position=0)][string]$FullString,
@@ -45,6 +61,7 @@ function Get-FirstCharInstance
 }
 
 ## - Execute function:
-#Get-FirstCharInstance -FullString 'abcdedcba' -FindInString 'd'
+#Get-FirstRecurringCharacter -FullString 'abcdedcba' -FindInString 'd'
+
 ```
 
