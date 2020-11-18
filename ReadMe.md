@@ -2,7 +2,7 @@ Technical Assessment.md
 
 Try the Jupyter Interactive Notebooks in MyBinder. No installs needed.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MaximoTrinidad/SampleAssessment_11182020/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MaximoTrinidad/SampleAssessment_11182020/main)
 
 # Exercise
 
