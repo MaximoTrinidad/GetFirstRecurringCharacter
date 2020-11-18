@@ -2,16 +2,11 @@ Technical Assessment.md
 
 Try the Jupyter Interactive Notebooks in MyBinder. No installs needed.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MaximoTrinidad/SampleAssessment_11182020/main)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MaximoTrinidad/GetFirstRecurringCharacter/master)
 
 # Exercise
-
 Create a powershell function or cmdlet that takes an arbitrarily long string parameter $foo (e.g. 'abcdedcba') and returns the first recurring character in that Input string.
-
 In 'abcdedcba', 'd' would be the first recurring character, so the cmdlet/function should return 'd' for that sample input.
-
-Be mindful of the runtime of your solution.
-
 
 # Sample with one-liners:
 ## - Store the string in a variable:
