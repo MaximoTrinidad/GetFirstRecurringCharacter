@@ -41,7 +41,7 @@ function Get-FirstCharInstance
 	## - Use the position found to print the value:
 	$foundChar = $FullString[$FindInStringPosition];
 	
-	Write-Host "Found String $($foundChar) at string position $($FindInStringPosition)" -ForegroundColor Yellow;
+	Write-Host "Found String = $($foundChar), at string position $($FindInStringPosition)" -ForegroundColor Yellow;
 }
 
 ## - Execute function:
