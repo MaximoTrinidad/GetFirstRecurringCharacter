@@ -9,17 +9,18 @@ Create a powershell function or cmdlet that takes an arbitrarily long string par
 In 'abcdedcba', 'd' would be the first recurring character, so the cmdlet/function should return 'd' for that sample input.
 
 # Sample with one-liners:
-## - Store the string in a variable:
+Store the string in a variable:
 $foo = 'abcdedcba';
 
-## - Get position of the first instance 'd" found:
+Get position of the first instance 'd" found:
 $foo.indexof('d');
 
-## - Use the position found to print the value:
+Use the position found to print the value:
 $foo[$foo.indexof('d')];
 
 
-# Sample function:
+Sample function:
+```
 ##===== Function Get-FirstCharInstance =====#
 function Get-FirstCharInstance
 {
@@ -40,3 +41,5 @@ function Get-FirstCharInstance
 
 ## - Execute function:
 #Get-FirstCharInstance -FullString 'abcdedcba' -FindInString 'd'
+```
+
