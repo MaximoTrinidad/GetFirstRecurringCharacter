@@ -4,11 +4,11 @@ Try the Jupyter Interactive Notebooks in MyBinder. No installs needed.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MaximoTrinidad/GetFirstRecurringCharacter/main)
 
-# Exercise
+#Exercise
 Create a powershell function or cmdlet that takes an arbitrarily long string parameter $foo (e.g. 'abcdedcba') and returns the first recurring character in that Input string.
 In 'abcdedcba', 'd' would be the first recurring character, so the cmdlet/function should return 'd' for that sample input.
 
-# Sample with one-liners:
+#Sample with one-liners:
 Store the string in a variable:
 ```
 $foo = 'abcdedcba';
@@ -61,7 +61,15 @@ function Get-FirstRecurringCharacter
 }
 
 ## - Execute function:
-#Get-FirstRecurringCharacter -FullString 'abcdedcba' -FindInString 'd'
+Get-FirstRecurringCharacter -FullString 'abcdedcba' -FindInString 'd'
 
 ```
 
+#Notebook Samples
+Check out both *PowerShell one-liners and function sample code with their results saved on the existing Notebooks folders:
+1. ../GetFirstRecurringCharacter/OneLinerScript
+2. ../GetFirstRecurringCharacter/FunctionScript
+
+*note: PowerShell kernel doesn't exist in Binder.
+
+              
