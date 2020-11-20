@@ -13,7 +13,7 @@ Check out both *PowerShell one-liners and function sample code with their result
 2. ../GetFirstRecurringCharacter/FunctionScript
 
 Also, I inclued two updated onli-liners file and the function to automically detect recurring character in a string:
-1. */GetFirstRecurringCharacter/OneLinerScript/Sample_Oneliners_FindRecurringCharacter.*
-2. */GetFirstRecurringCharacter/FunctionScript/Function_Get-RecurringCharacter.*
+1. **/GetFirstRecurringCharacter/OneLinerScript/Sample_Oneliners_FindRecurringCharacter. (Script & Notebook) **
+2. **/GetFirstRecurringCharacter/FunctionScript/Function_Get-RecurringCharacter. (Script & Notebook) **
 
-*note: PowerShell kernel doesn't exist in Binder.
+**Note**: PowerShell kernel doesn't exist in Binder.
