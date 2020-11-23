@@ -46,3 +46,33 @@ $rcCharFound = foreach ($rchar in $rcObject)
 };
 
 Write-Host "Recurring character found: `n`r $($rcCharFound) `n`r" -ForegroundColor Yellow;
+
+## ============================================================
+## Another variation: 
+[char[]]$foo = "AACBCDEDFFG";
+[System.Collections.Generic.HashSet[char]]::new($foo2); #this list create a list of unique characters.
+[array] $dup = foreach ($i in $foo2)
+{
+	$global:cntFound = 1
+	foreach ($f in $foo)
+	{
+		if ($i -eq $f)
+		{
+			#Write-Host "Reading = cnt - [$($global:cntFound)] -> Found $i = $f";
+			$global:cntFound++;
+		};
+	};
+	#Write-Host "<Total found $i is $global:cntFound>"
+	
+	if ($global:cntFound -ge 3)
+	{
+		$i
+	};
+};
+
+## - Duplicate characters found are stored in variable $dup:
+$dup
+
+## - List the first recurring character found:
+$dup | select -first 1 $_
+## ============================================================
