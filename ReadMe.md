@@ -16,4 +16,8 @@ Also, I inclued two updated onli-liners file and the function to automically det
 1. **/GetFirstRecurringCharacter/OneLinerScript/Sample_Oneliners_FindRecurringCharacter. (Script & Notebook) **
 2. **/GetFirstRecurringCharacter/FunctionScript/Function_Get-RecurringCharacter. (Script & Notebook) **
 
+Updated: 11/23/2020
+Added new function variation - Get-RecurringCharacter02 which doesn't use the Group-Object cmdlet.
+Just trying to be creative! 
+
 **Note**: PowerShell kernel doesn't exist in Binder.
