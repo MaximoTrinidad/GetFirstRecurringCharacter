@@ -50,7 +50,7 @@ Write-Host "Recurring character found: `n`r $($rcCharFound) `n`r" -ForegroundCol
 ## ============================================================
 ## Another variation: 
 [char[]]$foo = "AACBCDEDFFG";
-[System.Collections.Generic.HashSet[char]]::new($foo2); #this list create a list of unique characters.
+$foo2 = [System.Collections.Generic.HashSet[char]]::new($foo); #this list create a list of unique characters.
 [array] $dup = foreach ($i in $foo2)
 {
 	$global:cntFound = 1
